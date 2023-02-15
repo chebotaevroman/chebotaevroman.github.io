@@ -1,9 +1,29 @@
-html {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
 
-  max-width: 70ch;
-  padding: 3em 1em;
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: bold;
+}
+
+html {
+  font-family: Roboto, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  max-width: 600px;
   margin: auto;
   line-height: 1.75;
-  font-size: 1.25em;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+a {
+  color: rgb(58, 58, 58);
 }
